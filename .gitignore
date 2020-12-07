@@ -1,5 +1,8 @@
 # node
 node_modules/
 
+#webpack
+dist/
+
 # others
 vue-course/
