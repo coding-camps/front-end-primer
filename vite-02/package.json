@@ -1,0 +1,16 @@
+{
+  "name": "vite-02",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.0.3",
+    "terser": "^5.17.1",
+    "vite": "^4.3.2"
+  }
+}
