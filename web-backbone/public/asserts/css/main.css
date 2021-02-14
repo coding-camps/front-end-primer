@@ -1,0 +1,7 @@
+#root {
+    color: blue;
+}
+
+#root * {
+    color: blue;
+}

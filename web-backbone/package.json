@@ -1,0 +1,13 @@
+{
+  "name": "web-dev-env",
+  "private": true,
+  "version": "0.0.0",
+  "description": "This is a web dev env composed of traditional frontend and",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "devDependencies": {
+    "vite": "^4.4.8"
+  }
+}
