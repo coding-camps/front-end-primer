@@ -1,10 +1,23 @@
 <script setup>
+import { useCounterStore } from '@/stores/counter';
+import { storeToRefs } from 'pinia';
 import SlotDemo from '../components/SlotDemo.vue'
+
+const store = useCounterStore()
+const { count } = storeToRefs(store)
+const { increment, reset } = store
+
 const mySlotNames = [ 's5', 's6']
 </script>
 <template>
     <div>
         <h1>Demo</h1>
+
+        <H2>{{ count }}</H2>
+
+        <el-button type="primary" round @click="increment">加一</el-button>
+        <el-button type="primary" round @click="reset">重置</el-button>
+
         <el-button type="primary" round>Primary</el-button>
 
         <SlotDemo>
